@@ -29,11 +29,11 @@ cout<<"this is the end of the for loop"<<endl;
     cout<<"Enter your number"<<endl;
     cin>>b;
     cout<<"sum of a and b is "<<a+b<<endl;
-   int c;
-   cout<<"Enter your number"<<endl;
+    float c;
+   cout<<"Enter your float number c="<<endl;
    cin>>c;
-   int d;
-    cout<<"Enter your number"<<endl;
+   float d;
+    cout<<"Enter your float number d="<<endl;
     cin>>d; 
     cout<<"ADD FLOAT NUMBERS= "<<c+d<<endl;
     int age =30;
@@ -66,14 +66,17 @@ cout<<"this is the end of the for loop"<<endl;
     string name="Ruksana khatun";
     cout<<name<<endl;
     bool invalid=true;
+    cout<<"invalid is "<<invalid<<endl;
     float g;
-      cout<<"Enter your number g ="<<endl;
+      cout<<"Enter your float number g="<<endl;
     cin>>g;
-  
     float h;
-    cout<<"Enter your number h="<<endl;
+    cout<<"Enter your float number h="<<endl;
     cin>>h;
   
     cout<<"sum of g and h is ="<<g+h<<endl;
+    cout<<"Thank you till now i have writen code basic"<<endl;
+
+
     return 0;
 }
