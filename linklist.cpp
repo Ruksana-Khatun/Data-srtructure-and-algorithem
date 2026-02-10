@@ -36,19 +36,44 @@ cout<<"this is the end of the for loop"<<endl;
     cout<<"Enter your number"<<endl;
     cin>>d; 
     cout<<"ADD FLOAT NUMBERS= "<<c+d<<endl;
-    char e;
-    cout<<"Enter your number"<<endl;
-    cin>>e;
+    int age =30;
+    if(age>=10){
+        cout<<" you ARE elagaibale for voting"<<endl;
 
-    char f;
-    cout<<"Enter your number"<<endl;
-    cin>>f;
-    cout<<"ading char "<<e+f<<endl;
-    if (e==f){
-        cout<<"both char are same"<<endl;
     }
     else{
-        cout<<"both char are different"<<endl;
+        cout<<"you are not elagaibale for voting"<<endl;
     }
+    char grade ='A';
+    if(grade=='A'){
+        cout<<"you are a good student"<<endl;
+    }
+    else if(grade=='B'){
+        cout<<"you are a good student"<<endl;
+    }
+    else if(grade=='C'){
+        cout<<"you are a good student"<<endl;
+    }
+    else if(grade=='D'){
+        cout<<"you are a good student"<<endl;
+    }
+    else if(grade=='E'){
+        cout<<"you are a good student"<<endl;
+    }
+    else{
+        cout<<"you are not a good student"<<endl;
+    }
+    string name="Ruksana khatun";
+    cout<<name<<endl;
+    bool invalid=true;
+    float g;
+      cout<<"Enter your number g ="<<endl;
+    cin>>g;
+  
+    float h;
+    cout<<"Enter your number h="<<endl;
+    cin>>h;
+  
+    cout<<"sum of g and h is ="<<g+h<<endl;
     return 0;
 }
