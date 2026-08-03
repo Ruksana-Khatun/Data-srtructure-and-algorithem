@@ -46,6 +46,44 @@ class fish :public animal{
     }
 
 };
+class print{
+    public:
+    void show(int x){
+        cout<<"Interger  ="<<x<<endl;
+
+    }
+    void show(string str){
+        cout<<"string "<<str<<endl;
+    }
+
+};
+class complex{
+    int real;
+    int img;
+    public:
+    complex(int r ,int i){
+        real=r;
+        img=i;
+
+    }
+    void showNumber(){
+        cout<<real<<"+"<<img<<"+";
+    }
+};
+class parent{
+    public:
+    void show(){
+    cout<<"parents class show"<<endl;
+    }
+
+};
+class child: public parent{
+    public:
+    void show(){
+        cout<<"child class show "<<endl;
+    }
+
+};
 
 
 int main(){
@@ -53,12 +91,17 @@ int main(){
 //     car c();
 // cout<<"car name is called"<<c1.getName()<<endl;
 //     return 0;
-fish f1;
-f1.fins=3;
-cout<<f1.fins<<endl;
-f1.swim();
-f1.eat();
-f1.breath();
+// fish f1;
+// f1.fins=3;
+// cout<<f1.fins<<endl;
+// f1.swim();
+// f1.eat();
+// f1.breath();
+// print object1;
+// object1.show(24);
+//    object1.show("Apna college");
+child child1;
+child1.show();
 
-   
+   return 0;
 }
