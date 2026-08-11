@@ -54,31 +54,36 @@ int main(){
 //     cout<<arr[i]<<" ";
 //    }
  
-    int n = 3;
-    int m = 4;
+    // int n = 3;
+    // int m = 4;
 
-    int arr[n][m];
+    // int arr[n][m];
 
-    // Input
-    for(int i = 0; i < n; i++)
-    {
-        for(int j = 0; j < m; j++)
-        {
-            cin >> arr[i][j];
-        }
+    // // Input
+    // for(int i = 0; i < n; i++)
+    // {
+    //     for(int j = 0; j < m; j++)
+    //     {
+    //         cin >> arr[i][j];
+    //     }
+    // }
+
+    // // Output
+    // for(int i = 0; i < n; i++)
+    // {
+    //     for(int j = 0; j < m; j++)
+    //     {
+    //         cout << arr[i][j] << " ";
+    //     }
+    //     cout << endl;
+    // }
+    int arr[6]={2,3,4,5,6,7};
+    int n=6;
+    for(int i=0;i<n;i++){
+        cout<<arr[i]<<" ";
     }
-
-    // Output
-    for(int i = 0; i < n; i++)
-    {
-        for(int j = 0; j < m; j++)
-        {
-            cout << arr[i][j] << " ";
-        }
-        cout << endl;
-    }
-
     return 0;
+
 
    
 
