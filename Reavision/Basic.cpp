@@ -77,11 +77,18 @@ int main(){
     //     }
     //     cout << endl;
     // }
-    int arr[6]={2,3,4,5,6,7};
-    int n=6;
-    for(int i=0;i<n;i++){
-        cout<<arr[i]<<" ";
-    }
+    // int arr[6]={2,3,4,5,6,7};
+    // int n=6;
+    // for(int i=0;i<n;i++){
+    //     cout<<arr[i]<<" ";
+    // }
+    string str[]={"apna","college","Ruksana khatun"};
+    int n;
+     for(int i=0;i<n;i++){
+        cout<<str[i]<<" ";
+     }
+    cout<<str<<endl;
+
     return 0;
 
 
