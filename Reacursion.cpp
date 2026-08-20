@@ -2,6 +2,11 @@
 #include <string>
 #include<vector>
 using namespace std;
+void mergesort(int arr ,int st, int end){
+    int mid=(st+end)/2;
+
+
+}
 void function(int n){
     if(n==0){
         return;
@@ -117,7 +122,9 @@ void Bianrystring(int n, int lastplace,string ans){
 
     }
 
+    
 }
+
 int main(){
     // int ans =factorial(3);
     // cout<<ans<<endl;
@@ -144,6 +151,9 @@ int main(){
 // // |AC|
 // // BC 2 WAYAS 
 //        3 WAYS
+int arr[6]={2,5,6,1,3,4};
+int n=sizeof(arr)/sizeof(arr[0]);
+
 string ans="";
 
 Bianrystring(3,0,ans);

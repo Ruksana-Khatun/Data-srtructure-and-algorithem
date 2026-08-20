@@ -24,6 +24,8 @@ int main(){
         cout<<"you are not adult";
 
     }
+
+
     return 0;
 
 }
